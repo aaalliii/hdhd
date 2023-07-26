@@ -4,7 +4,7 @@ const ClassSelector = ({ onClassSelect }) => {
   const [classValue, setClassValue] = useState("");
 
   const handleChange = (event) => {
-    setClassValue(event.target.value);
+    setClassValue(parseInt(event.target.value, 10));
   };
 
   const handleSubmit = (event) => {
@@ -15,8 +15,8 @@ const ClassSelector = ({ onClassSelect }) => {
   return (
     <form onSubmit={handleSubmit}>
       <label>
-        Enter your class:
-        <input type="text" value={classValue} onChange={handleChange} />
+        Ingresa tu clase:
+        <input type="number" value={classValue} onChange={handleChange} />
       </label>
     </form>
   );
