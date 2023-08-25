@@ -15,7 +15,7 @@ const ClassSelector = ({ onClassSelect }) => {
   return (
     <form onSubmit={handleSubmit}>
       <label>
-        Ingresa tu clase:
+        какой класс?:
         <input type="number" value={classValue} onChange={handleChange} />
       </label>
     </form>

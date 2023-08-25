@@ -1,0 +1,10 @@
+body {
+    background-color: antiquewhite;
+}
+.day{
+    border-radius: 5px;
+    height: 80px;
+    width: 100px;
+    text-align: center;
+    color: white;
+}
