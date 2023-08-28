@@ -9,7 +9,7 @@ const Timetable = () => {
         marginBlockEnd: "10px",
       }}
     >
-      Cronograma
+      распа
     </p>
   );
 };

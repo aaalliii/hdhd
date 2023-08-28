@@ -10,10 +10,10 @@ const lessonsId = [
   "история",
   "физра",
   "инф",
-  "Null",
-  "Null",
-  "Null",
-  "Null",
+  "баскет",
+  "бокс",
+  "немц яз",
+  "игорь",
 ];
 const colorId = [
   "#7F8C87",
@@ -54,8 +54,8 @@ const DayDuration = [
   "16:25",
 ];
 const weedDay = ["пн", "вт", "ср", "чт", "пт"];
-const Day = ({ day, weekDay }) => {
-  //console.log(week);
+const Day = ({ day, weekDay, classId, }) => {
+  console.log(day);
   return (
     <tr>
       <td
