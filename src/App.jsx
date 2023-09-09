@@ -411,7 +411,7 @@ const schedule = {
 };
 
 const App = () => {
-  const [classId, setClassID, setWeek] = useState("");
+  const [classId, setClassID,] = useState("");
   const handleClassSelect = (selectedClass) => {
     setClassID(selectedClass);
   };
